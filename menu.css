@@ -1,0 +1,136 @@
+.carousel-inner img {
+         width: 100%;
+         height: 620px;
+     }
+
+     * {
+         margin: 0%;
+         padding: 0%;
+         box-sizing: border-box;
+     }
+
+     .nav {
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 30px 0;
+         background: #ffe6dab9;
+
+     }
+
+     .nav .logo h1 {
+         font-weight: 600;
+         font-family: sans-serif;
+         color: rgb(255, 174, 0);
+     }
+
+     .nav .logo b {
+         color: rgba(0, 60, 255, 0.183);
+     }
+
+     .nav ul {
+         display: flex;
+         list-style: none;
+     }
+
+     .nav ul li {
+         margin-right: 30px;
+     }
+
+     .nav ul li a {
+         text-decoration: none;
+         color: #000000;
+         font-weight: 500;
+         font-family: sans-serif;
+         font-size: 17px;
+     }
+
+     input {
+         padding: 10px 20px;
+         cursor: pointer;
+         font-weight: 600;
+     }
+
+
+     .SignIn {
+         background: transparent;
+         border: none;
+         outline: none;
+     }
+
+     .SignUp {
+         background: #efbe1c;
+         color: black;
+         font-style: normal;
+         outline: none;
+         border: none;
+         border-radius: 5px;
+     }
+
+     .carousel-caption {
+         color: #000000;
+     }
+
+     .EXPLORE {
+         padding: 10px;
+         text-align: center;
+         background-color: #ffe6dab9;
+         color: #780869;
+         font-size: large;
+         font-style: bold;
+         font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .card-for-workers {
+         background-image: url(https://tridentinfo.com/wp-content/uploads/2022/09/stockworkers.jpg);
+         height: 239px;
+         width: 461px;
+         background-size: contain;
+         background-repeat: no-repeat;
+
+         /* display: flex;
+    align-items: center;
+    justify-content: center; */
+     }
+
+     .card-img-overlay1 {
+         height: 239px;
+         width: 461px;
+         padding-top: 100px;
+         position: absolute;
+         color: rgb(230, 53, 53);
+     }
+
+     .card-for-workers h5 {
+         color: #33013b;
+         font: bold;
+     }
+
+     #last-div {
+         background-color: white;
+     }
+
+      .footer {
+        background: #e0d170b9;
+    }
+
+
+    #footer-list {
+        text-decoration: none;
+        text-align: center;
+    }
+
+    ul {
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .copyright p{
+        display: flex;
+        justify-content: space-around;
+        color: blue;
+        /* background: rgb(216, 106, 106); */
+        font-size: larger;
+    }
+
+     
